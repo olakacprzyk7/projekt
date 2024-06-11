@@ -1,0 +1,167 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .baner{
+        background-color:sienna;
+        color:white;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .baner a{
+        text-decoration: none;
+        color:white;
+        font-size: 20px;
+    }
+    
+    .start{
+        background-color:burlywood;
+        color: white;
+        height:900px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .h1{
+        font-weight: bold;
+        font-size: 80px;
+    }
+    
+    .h2, .h3, .h4{
+        font-weight: bold;
+        font-size: 50px;
+    }
+    
+    .about{
+        font-size:20px;
+        text-align: center;
+    }
+    
+    .a_k{
+        border-radius: 50%;
+        width: 400px;
+        height: 400px;
+        box-shadow: 5px 5px 10px;
+    }
+    
+    .mywork{
+        background-color: white;
+        color: sienna;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .pictures{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        gap: 30px;
+        align-content: space-around;
+        margin-bottom: 20px;
+    }
+    
+    .pictures img{
+        border-radius: 8px;
+        display: block;
+        max-width: 400px;
+        max-height: 400px;
+        width: auto;
+        height: auto;
+    }
+    
+    .doswiadczenie{
+        background-color:burlywood;
+        color: white;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 700px;
+        font-size: 20px;
+    }
+    
+    .lewy{
+        background-color: burlywood;
+        color: white;
+        display: flex;
+        justify-content: center;
+        gap:30px;
+        height: 200px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .prawy{
+        background-color: burlywood;
+        color: white;
+        display: flex;
+        justify-content: center;
+        gap:30px;
+        height: 200px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .contact{
+        background-color: white;
+        color:sienna;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 700px;
+        gap: 20px;
+        align-content: space-around;
+        column-gap: 20px;
+    }
+    
+    .form{
+        font-size: 20px;
+        padding: 30px;
+    }
+    
+    .form hr{
+        padding: 15px;
+    }
+
+    .send{
+        border: 1px solid burlywood;
+        background-color: burlywood;
+        border-radius: 8px;
+    }
+    
+    .stopka{
+        background-color:sienna;
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 200px;
+    }
+
+    .stopka a{
+        text-decoration: none;
+        color:white;
+    }
+    
+    .location{
+        background-color:sienna;
+        color: white;
+        display: flex;
+        justify-content: center;
+        gap:30px;
+        height: 200px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
